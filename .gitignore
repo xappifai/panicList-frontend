@@ -1,0 +1,49 @@
+# Dependencies
+/node_modules
+
+# Build outputs
+/.next
+/out
+/.turbo
+/.vercel
+
+# Debug / Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Env files
+.env
+.env*.local
+
+# Coverage / Testing
+/coverage
+/.nyc_output
+/jest-report.xml
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc cache
+/.eslintcache
+/.stylelintcache
+/.parcel-cache
+.cache
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
